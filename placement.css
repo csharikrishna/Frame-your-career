@@ -1,0 +1,207 @@
+/* Resetting default margin and padding */
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+/* Header Styles */
+header {
+   background-image: url('place.jpg');
+   background-size: cover;
+   background-position: center;
+   color: white; /* Set text color to ensure it's visible against the background */
+   padding: 50px 0; /* Adjust padding as needed */
+   text-align: left;
+   height: 350px; /* Adjust the height as needed */
+}
+
+.header-content {
+   background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent overlay for better text visibility */
+   padding:05px;
+   margin-top: 15%; /* Adjust the margin to move the overlay downwards */
+   transform: translateY(-50%); /* Center the overlay vertically */
+   padding-left: 150px; /* Adjust the left padding to move the text to the right */
+}
+
+
+h1 {
+   font-size: 2.5rem;
+   margin-bottom: 10px;
+}
+
+p {
+   font-size: 1.1rem;
+   margin-top: 0;
+}
+
+/* Main Styles */
+main {
+   padding: 20px;
+   background-color: #f5f5f5;
+}
+
+.container {
+   max-width: 800px;
+   margin: 0 auto;
+}
+
+/* Placements Section Styles */
+.placements-section {
+   margin-bottom: 40px;
+}
+
+.placement-list {
+   display: grid;
+   grid-gap: 20px;
+}
+
+.placement {
+   padding: 20px;
+   background-color: white;
+   border-radius: 5px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.placement h3 {
+   margin-bottom: 10px;
+}
+
+.placement button {
+   padding: 8px 16px;
+   background-color: #007bff;
+   color: white;
+   border: none;
+   border-radius: 3px;
+   cursor: pointer;
+}
+
+.placement button:hover {
+   background-color: #0056b3;
+}
+
+/* Testimonials Section Styles */
+.testimonials-section {
+   margin-bottom: 40px;
+}
+
+.testimonial {
+   background-color: white;
+   padding: 20px;
+   border-radius: 5px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   margin-bottom: 20px;
+}
+
+.testimonial p {
+   margin-bottom: 5px;
+}
+
+/* Top Companies Section Styles */
+
+/* Placements Section Styles */
+.placements-section {
+   margin-bottom: 40px;
+}
+
+.banner img {
+   width: 100%;
+   border-radius: 5px;
+   margin-bottom: 20px;
+}
+
+.filter select,
+.search input[type="text"],
+.search button {
+   margin-bottom: 10px;
+}
+
+.filter select,
+.search input[type="text"] {
+   width: calc(50% - 5px); /* Adjust width as needed */
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 3px;
+}
+
+.search button {
+   padding: 10px 20px;
+   background-color: #007bff;
+   color: white;
+   border: none;
+   border-radius: 3px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+}
+
+.search button:hover {
+   background-color: #0056b3;
+}
+
+.placement-list {
+   display: grid;
+   grid-gap: 20px;
+}
+
+.placement {
+   padding: 20px;
+   background-color: white;
+   border-radius: 5px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.placement h3 {
+   margin-bottom: 10px;
+}
+
+.placement button {
+   padding: 8px 16px;
+   background-color: #007bff;
+   color: white;
+   border: none;
+   border-radius: 3px;
+   cursor: pointer;
+}
+
+.placement button:hover {
+   background-color: #0056b3;
+}
+/* Top Companies Section Styles */
+.top-companies-section {
+   background-color: white;
+   padding: 10px;
+   border-radius: 5px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   margin-bottom: 20px;
+}
+
+.top-companies-section h2 {
+   font-size: 1.8rem;
+   margin-bottom: 10px;
+}
+
+.top-companies {
+   list-style: none;
+   padding: 0;
+}
+
+.top-companies li {
+   font-size: 1.2rem;
+   margin-bottom: 5px;
+}
+
+.top-companies li i {
+   color: #007bff; /* Assuming you want to style the company name with blue color */
+}
+
+/* Footer Styles */
+footer {
+   background-color: #007bff;
+   color: white;
+   text-align: center;
+   padding: 20px 0;
+}
+
+footer p {
+   font-size: 1.2rem;
+}

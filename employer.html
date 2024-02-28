@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employer Page</title>
+    <link rel="stylesheet" href="employer.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Frame your Career </h1>
+            <p>Unlock Your Potential</p>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="employer-section">
+                <h2>Posted Internships/Placements</h2>
+                <div class="posted-opportunities">
+                    <!-- Content dynamically generated from backend -->
+                    <div class="opportunity">
+                        <h3>Internship/Placement Title</h3>
+                        <p>Company: Google</p>
+                        <p>Description: Senior Data Analyst</p>
+                        <p>Submission Date: 01/03/2024</p>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </div>
+                    <!-- More opportunities can be added dynamically -->
+                </div>
+            </section>
+            <section class="statistics-section">
+                <h2>Statistics</h2>
+                <div class="statistics">
+                    <p>Number of People Reached: 1000</p>
+                    <p>Number of Applications: 500</p>
+                </div>
+            </section>
+            <section class="post-opportunity-section">
+                <h2>Post New Internship/Placement</h2>
+                <form id="post-opportunity-form">
+                    <div class="form-group">
+                        <label for="opportunity-title">Opportunity Title</label>
+                        <input type="text" id="opportunity-title" name="opportunity-title" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company-name">Company Name</label>
+                        <input type="text" id="company-name" name="company-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="description">Description</label>
+                        <textarea id="description" name="description" rows="4" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="submission-date">Submission Date</label>
+                        <input type="date" id="submission-date" name="submission-date" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Post</button>
+                    </div>
+                </form>
+            </section>
+            <section class="contact-section">
+                <h2>Contact Us</h2>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="issue">Issue</label>
+                            <input type="text" id="issue" name="issue" required>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <section class="advertise-section">
+                <h2>Advertise</h2>
+                <p>Opportunities for Employers</p>
+                <!-- Additional content related to advertising -->
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Career Opportunities</p>
+    </footer>
+</body>
+</html>
